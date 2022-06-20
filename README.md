@@ -3,14 +3,14 @@
 To get started
 Welcome to the first release of the SKILSTAK Beginner Boost virtual machine. Follow these steps to get up and running as fast as possible:
 
-1. Download the [OVA] file
+1. Download the [OVA][] file
 2. Download and install Oracle VirtualBox
-3. Double click the [OVA] file to open and import into VirtualBox
+3. Double click the [OVA][] file to open and import into VirtualBox
 4. Login as user `boost` with password `password`
 5. Note the IP address 
 6. Connect from Windows Terminal or iTerm2 using `ssh boost@<ipaddress>
 
-[OVA]: <https://mega.nz/file/9CM0yIiL#uPslRos1XLLV76fvs7VwPvFTQNukHBGdXbjiWyynWdk
+[OVA]: https://mega.nz/file/9CM0yIiL#uPslRos1XLLV76fvs7VwPvFTQNukHBGdXbjiWyynWdk
 
 ## Setup
 
