@@ -33,7 +33,7 @@ x.update () {
 
 x.install.base () {
   sudo apt-get -y install \
-    vim lynx w3m git pandoc go nmap jq make python-is-python3 \
+    vim lynx w3m git pandoc golang nmap jq make python-is-python3 \
     figlet cmatrix build-essential libcurses-dev autoconf entr
 }
 
