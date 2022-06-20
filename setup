@@ -59,8 +59,8 @@ x.install.gh () {
 
 x.main () {
   #x.update
-  x.install_base
-  #x.install_fishies
+  x.install.base
+  #x.install.fishies
 }
 
 ############################## BOILERPLATE ###########################
