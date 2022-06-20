@@ -1,3 +1,5 @@
 #!/bin/bash
+set -euvx -o pipefail
 
-echo "wahoooo"
+sudo apt-get -y update
+sudo apt-get -y upgrade
