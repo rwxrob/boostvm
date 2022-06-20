@@ -58,7 +58,7 @@ x.install.gh () {
 }
 
 x.main () {
-  #x.update
+  x.update
   x.install.base
   #x.install.fishies
 }
