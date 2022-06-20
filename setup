@@ -38,7 +38,22 @@ x.update () {
 
 x.base () {
   sudo apt-get -y install \
-    vim lynx w3m git pandoc nmap jq figlet cmatrix entr make
+    vim w3m git pandoc nmap jq figlet cmatrix entr make
+}
+
+x.lynx () {
+  sudo apt-get -y install lynx
+  lynxconfd="$HOME/.config/lynx"
+  mkdir -p "$lynxconfd"
+  curl -fsSL https://raw.githubusercontent.com/rwxrob/dot/main/lynx/lynx.cfg \
+	  -o "$lynxconfd/lynx.cfg"
+  curl -fsSL https://raw.githubusercontent.com/rwxrob/dot/main/lynx/lynx.lss \
+	  -o "$lynxconfd/lynx.lss"
+  for i in lynx duck google bing urlencode; do 
+    curl -fsSL "https://raw.githubusercontent.com/rwxrob/dot/main/scripts/$i" \
+	  -o "$HOMEBIN/$i"
+    chmod +x "$HOMEBIN/$i"
+  done
 }
 
 x.go () {
@@ -96,6 +111,7 @@ x.all () {
   x.vim
   x.tmux
   x.scripts
+  x.lynx
 }
 
 ############################## BOILERPLATE ###########################
