@@ -33,17 +33,20 @@ x.update () {
 
 x.install.base () {
   sudo apt-get -y install \
-    vim lynx w3m git pandoc golang nmap jq make python-is-python3 \
-    figlet cmatrix build-essential libcurses-dev autoconf entr
+    vim lynx w3m git pandoc nmap jq figlet cmatrix entr
+}
+
+x.install.go () {
+  sudo apt-get -y golang
+}
+
+x.install.python () {
+  sudo apt-get -y python-is-python3
 }
 
 x.install.fishies () {
   sudo apt-get -y install libcurses-perl
   sudo cpan -I Term::Animation
-}
-
-x.install.neo () {
-  : #TODO
 }
 
 x.install.gh () {
