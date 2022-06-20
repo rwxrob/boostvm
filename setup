@@ -87,7 +87,9 @@ x.bash () {
 }
 
 x.vim () {
-  curl -fsSL https://raw.githubusercontent.com/rwxrob/dot/main/.vimrc -o "$HOME/.vimrc"
+  curl -fsSL https://raw.githubusercontent.com/rwxrob/dot/main/vim/.vimrc -o "$HOME/.vimrc"
+  curl -fsSL https://raw.githubusercontent.com/rwxrob/dot/main/scripts/vic -o "$HOMEBIN/vic"
+  chmod +x "$HOMEBIN/vic"
 }
 
 x.tmux () {
