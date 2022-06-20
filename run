@@ -1,0 +1,2 @@
+#!/bin/sh
+curl -sS https://raw.githubusercontent.com/rwxrob/boostvm/main/setup |sudo bash 2>&1| tee setup.log
