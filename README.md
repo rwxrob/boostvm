@@ -10,7 +10,7 @@ Welcome to the first release of the SKILSTAK Beginner Boost virtual machine. Fol
 5. Note the IP address 
 6. Connect from Windows Terminal or iTerm2 using `ssh boost@<ipaddress>
 
-[OVA]: https://mega.nz/file/9CM0yIiL#uPslRos1XLLV76fvs7VwPvFTQNukHBGdXbjiWyynWdk
+[OVA]: https://drive.google.com/file/d/1jKFuD7RGAFWITuWTfj4ILqoDYfi88gRA/view?usp=sharing
 
 ## Setup
 
