@@ -1,16 +1,28 @@
 # SKILSTAK Beginner Boost Starter VM
 
-To get started
-Welcome to the first release of the SKILSTAK Beginner Boost virtual machine. Follow these steps to get up and running as fast as possible:
+Welcome to the first release of the SKILSTAK Beginner Boost virtual machine.
+
+## Install a VMWare Player of Some Kind
+
+* [VMWare Workstation Player (Free)](https://customerconnect.vmware.com/en/downloads/details?downloadGroup=WKST-PLAYER-1622&productId=1039)
+* [VMWare Workstation Pro (Trial)](https://customerconnect.vmware.com/en/downloads/details?downloadGroup=WKST-1621-WIN&productId=1038)
+* [VMware Fusion for Mac (Free)](https://customerconnect.vmware.com/downloads/get-download?downloadGroup=FUS-PUBTP-2021H1)
+
+You might also consider joining your local [VMUG](https://www.vmug.com/membership/vmug-advantage-membership/).
+
+## Download, Import, Setup SKILSTAK Boost VM (OVA File)
 
 1. Download the [OVA][] file
-2. Download and install Oracle VirtualBox
-3. Double click the [OVA][] file to open and import into VirtualBox
-4. Login as user `boost` with password `password`
-5. Note the IP address 
-6. Connect from Windows Terminal or iTerm2 using `ssh boost@<ipaddress>
+2. Optionally [validate the checksum](#optional-checksum-validation)
+3. Download and install Oracle VirtualBox
+4. Double click the [OVA][] file to open and import into VirtualBox
+5. Login as user `boost` with password `password`
+6. Note the IP address 
+7. Connect from Windows Terminal or iTerm2 using `ssh boost@<ipaddress>
 
 [OVA]: https://drive.google.com/file/d/1jKFuD7RGAFWITuWTfj4ILqoDYfi88gRA/view?usp=sharing
+
+## Optional Checksum Validateion
 
 For those who know what sha256sum is and how to validate it here is the checksum:
 
