@@ -18,13 +18,16 @@ You might also consider joining your local [VMUG](https://www.vmug.com/membershi
 4. Double click the [OVA][] file to open and import into VirtualBox
 5. Login as user `boost` with password `password`
 6. Note the IP address 
-7. Connect from Windows Terminal or iTerm2 using `ssh boost@<ipaddress>
+7. Connect from Windows Terminal or iTerm2 using `ssh boost@<ipaddress>`
+8. Consider adding a "Reserved DHCP Address" to your home rounter so IP stays the same
 
 [OVA]: https://drive.google.com/file/d/1jKFuD7RGAFWITuWTfj4ILqoDYfi88gRA/view?usp=sharing
 
 ## Network Troubleshooting
 
-> "For me, at boot the VM could not connect to a network. I had to go to vmware virtual machine settings, network adapter and for bridged mode -> configure adapters and uncheck VirtualBox Host-Only ethernet adapter." (mecena38) (This seems to be common for those who had VirtualBox before.)
+> "For me, at boot the VM could not connect to a network. I had to go to vmware virtual machine settings, network adapter and for bridged mode -> configure adapters and uncheck VirtualBox Host-Only ethernet adapter." (mecena38) (This seems to be common for those using VMWare Player who had VirtualBox before.)
+
+> "sudo /sbin/dhclient" (10x_programmer) (This will sometimes get you a first IP if none was assigned. It should remember it after the first time.)
 
 ## Optional Checksum Validation
 
