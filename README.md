@@ -22,6 +22,10 @@ You might also consider joining your local [VMUG](https://www.vmug.com/membershi
 
 [OVA]: https://drive.google.com/file/d/1jKFuD7RGAFWITuWTfj4ILqoDYfi88gRA/view?usp=sharing
 
+## Network Troubleshooting
+
+> "For me, at boot the VM could not connect to a network. I had to go to vmware virtual machine settings, network adapter and for bridged mode -> configure adapters and uncheck VirtualBox Host-Only ethernet adapter." (mecena38) (This seems to be common for those who had VirtualBox before.)
+
 ## Optional Checksum Validation
 
 For those who know what sha256sum is and how to validate it here is the checksum:
