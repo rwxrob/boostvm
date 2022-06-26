@@ -22,7 +22,7 @@ You might also consider joining your local [VMUG](https://www.vmug.com/membershi
 
 [OVA]: https://drive.google.com/file/d/1jKFuD7RGAFWITuWTfj4ILqoDYfi88gRA/view?usp=sharing
 
-## Optional Checksum Validateion
+## Optional Checksum Validation
 
 For those who know what sha256sum is and how to validate it here is the checksum:
 
