@@ -18,7 +18,7 @@ For those who know what sha256sum is and how to validate it here is the checksum
 119340D890EDD11A0BA914804CEBBC68F9DF507C53035FFBA5DD577DF890C445
 ```
 
-For those who don't know what the is (yet) don't worry about it for now. Eventually, you will be able to use this to validate that a time is the authentic original and not been tampered with in transit or put on a phishing server to hack you.
+For those who don't know what a checksum is (yet) don't worry about it for now. Eventually, you will be able to use this to validate that a time is the authentic original and not been tampered with in transit or put on a phishing server to hack you.
 
 ## Setup
 
