@@ -29,6 +29,8 @@ You might also consider joining your local [VMUG](https://www.vmug.com/membershi
 
 > "sudo /sbin/dhclient" (10x_programmer) (This will sometimes get you a first IP if none was assigned. It should remember it after the first time.)
 
+> https://appuals.com/fix-vmware-bridged-network-not-working/ (zedie3)
+
 ## Optional Checksum Validation
 
 For those who know what sha256sum is and how to validate it here is the checksum:
