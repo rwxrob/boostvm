@@ -5,7 +5,7 @@ Welcome to the first release of the SKILSTAK Beginner Boost virtual machine.
 ## Install a VMWare Player of Some Kind
 
 * [VMWare Workstation Player (Free)](https://customerconnect.vmware.com/en/downloads/details?downloadGroup=WKST-PLAYER-1622&productId=1039)
-* [VMWare Workstation Pro (Trial)](https://customerconnect.vmware.com/en/downloads/details?downloadGroup=WKST-1621-WIN&productId=1038)
+* [VMWare Workstation Pro (Trial)](https://customerconnect.vmware.com/en/downloads/info/slug/desktop_end_user_computing/vmware_workstation_pro/16_0)
 * [VMware Fusion for Mac (Free)](https://customerconnect.vmware.com/downloads/get-download?downloadGroup=FUS-PUBTP-2021H1)
 
 You might also consider joining your local [VMUG](https://www.vmug.com/membership/vmug-advantage-membership/).
