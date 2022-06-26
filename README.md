@@ -12,6 +12,14 @@ Welcome to the first release of the SKILSTAK Beginner Boost virtual machine. Fol
 
 [OVA]: https://drive.google.com/file/d/1jKFuD7RGAFWITuWTfj4ILqoDYfi88gRA/view?usp=sharing
 
+For those who know what sha256sum is and how to validate it here is the checksum:
+
+```
+119340D890EDD11A0BA914804CEBBC68F9DF507C53035FFBA5DD577DF890C445
+```
+
+For those who don't know what the is (yet) don't worry about it for now. Eventually, you will be able to use this to validate that a time is the authentic original and not been tampered with in transit or put on a phishing server to hack you.
+
 ## Setup
 
 This repo contains the setup script to create a fresh SKILSTAK Beginner
