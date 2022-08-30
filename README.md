@@ -14,12 +14,12 @@ You might also consider joining your local [VMUG](https://www.vmug.com/membershi
 
 1. Download the [OVA][] file
 2. Optionally [validate the checksum](#optional-checksum-validation)
-3. Download and install Oracle VirtualBox
-4. Double click the [OVA][] file to open and import into VirtualBox
+3. Download and install VMWare Player or Workstation
+4. Double click the [OVA][] file to open and import into VMWare
 5. Login as user `boost` with password `password`
-6. Note the IP address 
+6. Note the IP address
 7. Connect from Windows Terminal or iTerm2 using `ssh boost@<ipaddress>`
-8. Consider adding a "Reserved DHCP Address" to your home rounter so IP stays the same
+8. Consider adding a "Reserved DHCP Address" to your home router so IP stays the same
 
 [OVA]: https://drive.google.com/file/d/1jKFuD7RGAFWITuWTfj4ILqoDYfi88gRA/view?usp=sharing
 
